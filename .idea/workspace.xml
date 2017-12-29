@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffbe646-7b7c-4ff1-9e58-96a06910fd16" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/pages/abstract_page.rb" afterPath="$PROJECT_DIR$/lib/pages/abstract_page.rb" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/home_page.rb" afterPath="$PROJECT_DIR$/lib/pages/home_page.rb" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/live_view.rb" afterPath="$PROJECT_DIR$/lib/pages/live_view.rb" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/quick_links.rb" afterPath="$PROJECT_DIR$/lib/pages/quick_links.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/new_branch_link_spec.rb" afterPath="$PROJECT_DIR$/spec/new_branch_link_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/android_click.rb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/branch_project@matchers.coverage" NAME="matchers Coverage Results" MODIFIED="1514401377072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/branch_assigment/lib" MODULE_NAME="branch_assigment" />
     <SUITE FILE_PATH="coverage/branch_project@hooks.coverage" NAME="hooks Coverage Results" MODIFIED="1514401357452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/branch_assigment/lib" MODULE_NAME="branch_assigment" />
+    <SUITE FILE_PATH="coverage/branch_project@All_specs_in_branch_project__branch_project.coverage" NAME="All specs in branch_project: branch_project Coverage Results" MODIFIED="1514528291325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="branch_project" />
     <SUITE FILE_PATH="coverage/branch_project@Run_test__test_new_branch_link___branch_project.coverage" NAME="Run test 'test_new_branch_link': branch_project Coverage Results" MODIFIED="1514430360384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="branch_project" />
     <SUITE FILE_PATH="coverage/branch_project@test_new_branch_link__branch_project.coverage" NAME="test new branch link: branch_project Coverage Results" MODIFIED="1514515461619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="branch_project" />
     <SUITE FILE_PATH="coverage/branch_project@branch_link_creator_client.coverage" NAME="branch_link_creator_client Coverage Results" MODIFIED="1514522142074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/clients" MODULE_NAME="branch_project" />
@@ -36,21 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="abstract_page.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="abstract_page.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/abstract_page.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android_click.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/android_click.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -76,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quick_links.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quick_links.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pages/quick_links.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -121,16 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
               <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/login_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -186,11 +164,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="26" />
-    <option name="width" value="1192" />
-    <option name="height" value="752" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="34" />
+    <option name="y" value="10" />
+    <option name="width" value="1246" />
+    <option name="height" value="757" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -287,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'new_branch_link_spec': branch_project">
+  <component name="RunManager" selected="RSpec.All specs in branch_project: branch_project">
     <configuration name="verify_new_link.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="branch_assigment" />
@@ -322,6 +300,38 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+    </configuration>
+    <configuration name="All specs in branch_project: branch_project" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="branch_project" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
     <configuration name="Run spec 'new_branch_link_spec': branch_project" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
@@ -405,38 +415,20 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/clients/branch_link_creator_client.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <configuration name="steps" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="branch_assigment" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/features/step_definitions" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/features/step_definitions/steps.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.test new branch link: branch_project" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.steps" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.verify_new_link.feature" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'new_branch_link_spec': branch_project" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.branch_link_creator_client" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.verify_new_link.feature" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'new_branch_link_spec': branch_project" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.branch_link_creator_client" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in branch_project: branch_project" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'new_branch_link_spec': branch_project" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.branch_link_creator_client" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.test new branch link: branch_project" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.verify_new_link.feature" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.steps" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in branch_project: branch_project" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'new_branch_link_spec': branch_project" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.branch_link_creator_client" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.test new branch link: branch_project" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.verify_new_link.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -460,11 +452,14 @@
       <workItem from="1514330166738" duration="3543000" />
       <workItem from="1514347855571" duration="13027000" />
       <workItem from="1514403213765" duration="2552000" />
-      <workItem from="1514409850642" duration="45883000" />
+      <workItem from="1514409850642" duration="46651000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_specs_in_branch_project__branch_project - 2017.12.28 at 22h 21m 11s.xml">
+      <configuration name="All specs in branch_project: branch_project" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
     <history-entry file="Run_spec_'new_branch_link_spec'__branch_project - 2017.12.28 at 18h 54m 25s.xml">
       <configuration name="Run spec 'new_branch_link_spec': branch_project" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -489,28 +484,24 @@
     <history-entry file="Run_spec_'new_branch_link_spec'__branch_project - 2017.12.28 at 21h 31m 42s.xml">
       <configuration name="Run spec 'new_branch_link_spec': branch_project" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_new_branch_link__branch_project - 2017.12.28 at 18h 43m 45s.xml">
-      <configuration name="test new branch link: branch_project" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="test_new_branch_link__branch_project - 2017.12.28 at 18h 46m 25s.xml">
       <configuration name="test new branch link: branch_project" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87330000" />
+    <option name="totallyTimeSpent" value="88098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="26" width="1192" height="752" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="751" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14956522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13893376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26530612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26569343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -812,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/android_click.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/abstract_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -856,6 +839,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="37" column="70" lean-forward="true" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/android_click.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
