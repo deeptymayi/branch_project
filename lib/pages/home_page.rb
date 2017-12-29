@@ -10,17 +10,11 @@ class HomePage < AbstractPage
   end
 
   def navigateToLiveView
+    #### Navigate to Live View Page
     @@driver.find_element(:tag_name => "body").text.include?("Summary")
     @@driver.find_element(:tag_name => "body").text.include?("Installs")
     @@driver.navigate.to('https://dashboard.branch.io/liveview/links')
     sleep 5
-    # @wait = Selenium::WebDriver::Wait.new(:timeout => 15)
-    # begin
-    #   @wait.until { @@driver.find_element(:tag_name => "body").text.include?("All Links loaded")}
-    # rescue
-    #   puts "Failure! text is not present on the page"
-    # @@driver.find_element(:tag_name => "body").text.include?("All Links loaded")
-    # @@driver.find_element(:tag_name => "body").text.include?("Automation")
     return LiveViewPage.new(@@driver)
   end
 end

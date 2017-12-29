@@ -11,8 +11,8 @@ class AbstractPage
   end
 
   def navigateToDashboard
+    ### Login to branch dashboard
     @@driver.navigate.to('http://dashboard.branch.io/login')
-
     @@driver.find_element(:name, 'email').send_keys('deeptymayi.patel@gmail.com')
     @@driver.find_element(:class, 'button-type-primary').click
     @@driver.find_element(:tag_name => "body").text.include?("Please specify a password.")
